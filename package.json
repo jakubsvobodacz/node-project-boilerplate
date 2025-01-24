@@ -1,0 +1,29 @@
+{
+  "name": "project-boilerplate",
+  "version": "1.0.0",
+  "description": "This is my boiler plate for node js personal projects that can be cloned and used as a starting point with all the typical basics in place, especially the packages that are used quite commonly.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.18.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2"
+  }
+}
