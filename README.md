@@ -12,6 +12,9 @@ This is my boiler plate for node js personal projects that can be cloned and use
 - Prettier
 - DotEnv
 
+### FE Integration
+- Axios
+
 ### Testing
 - Jest
 
