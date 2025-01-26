@@ -15,7 +15,7 @@ This is my boiler plate for node js personal projects that can be cloned and use
 ### FE Integration
 - Axios
 
-## FE
+### FE
 - Tailwind CSS
 - Auto-prefixer
 - PostCSS
