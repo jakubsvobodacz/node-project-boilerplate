@@ -1,5 +1,5 @@
-const {MongoClient, ServerApiVersion} = require('mongodb');
-const dotenv = require('dotenv');
+import {MongoClient, ServerApiVersion} from 'mongodb';
+import dotenv from 'dotenv';
 
 dotenv.config();
 
@@ -22,7 +22,8 @@ const connectDb = async (collectionName) => {
         return {collection};
     } catch (error) {
         console.error('Could not connect to MongoDB:', error);
+        throw error;
     }
 };
 
-module.exports = {connectDb};
+export {connectDb};

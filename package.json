@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is my boiler plate for node js personal projects that can be cloned and used as a starting point with all the typical basics in place, especially the packages that are used quite commonly.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
