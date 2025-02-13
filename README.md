@@ -17,6 +17,7 @@ This is my boiler plate for node js personal projects that can be cloned and use
 - Nodemon (^3.1.9)
 - ESLint (^9.18.0)
 - Prettier (^3.4.2)
+- ESM (^3.2.25)
 
 ### Frontend & CSS Tools
 - Tailwind CSS (^4.0.0)
