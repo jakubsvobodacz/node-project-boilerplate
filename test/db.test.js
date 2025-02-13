@@ -1,7 +1,6 @@
-import { expect } from 'chai';
-import dotenv from 'dotenv';
+const { expect } = require('chai');
+const dotenv = require('dotenv');
 
-// Load environment variables from .env file
 dotenv.config();
 
 

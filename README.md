@@ -8,6 +8,7 @@ This is my boiler plate for node js personal projects that can be cloned and use
 - MongoDB (^6.13.0)
 - Axios (^1.7.9)
 - DotEnv (^16.4.7)
+- Clerk (^1.3.47)
 
 ### Security
 - CORS (^2.8.5)
